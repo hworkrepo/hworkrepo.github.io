@@ -21,11 +21,74 @@ body, html{
     color: white;
   }
 
-  h1{
-      font-family:'Buda';
-  }
+.header-title-col{
+    padding-top:300px;
+}
 
-  h2{
+.header-title{
+    font-size: 100px;
+    padding-right: 80px;
+}
+
+.title-brown{
+    color: #7C695B;
+}
+.desc-brown{
+    color:#625144;
+}
+.btn-connect{
+    color: #928681;
+    border: 1px solid;
+    font-family: 'Buda';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.desc-white{
+    color:#E5E5E5;
+}
+
+.section-title-row{
+    margin-left: 520px;
+    margin-right: 520px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.section-title-text{
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.content-desc{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.disclaimer-box{
+    margin-top:40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom:40px;
+    background: #29170D;
+}
+h1{
+    font-family:'Buda';
+}
+
+h2{
     font-family:'Buda';
 }
 
@@ -35,4 +98,5 @@ h3{
 
 p{
     font-family:'Buda';
+    font-size:20px;
 }
